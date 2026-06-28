@@ -11,3 +11,4 @@ def main(args: list[str] | None = None) -> int:
     from pip._internal.utils.entrypoints import _wrapper
 
     return _wrapper(args)
+
