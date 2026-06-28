@@ -16,7 +16,7 @@ def fmt_time(sec):
     if sec < 60:       return f"{sec:.0f}s"
     if sec < 3600:     return f"{int(sec)//60}m{int(sec)%60:02d}s"
     h, m = int(sec)//3600, (int(sec)%3600)//60
-    return f"{h}h{m:02d}m"
+    return f"{h}h{m:02d}m" 
 
 def progress_bar(pct, width=30):
     """ASCII 进度条"""
